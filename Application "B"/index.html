@@ -1,0 +1,81 @@
+<!doctype html>  
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	
+	<title>Login & Password Saver</title>
+	
+	<!--  Mobile viewport optimized: j.mp/bplateviewport -->
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!-- Mobile IE needs ClearType for smoothing fonts -->
+	<meta http-equiv="cleartype" content="on">
+	
+	<!-- StyleSheets under here -->
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.0-rc.1/jquery.mobile-1.1.0-rc.1.min.css" />
+	<link rel="stylesheet" href="css/style.css"/>
+	
+	<!-- JavaScript is normally at the end of the body, except for Modernizr which enables HTML5 elements & feature detects -->
+	<script src="js/libs/modernizr.custom.min.js"></script>
+
+</head>
+
+<body>
+
+	<div data-ajax="false" data-role="page" id="home">
+		
+		<div data-role="header" data-theme="b" >
+			<h1>Login & Password Saver</h1>
+		</div>
+
+		<div data-role="content">
+			<ul data-role="listview" data-inset="true" data-filter="true">
+				<li><a href="#cpulogins">Computer Logins</a></li>
+				<li><a href="#email">Email Accounts</a></li>
+				<li><a href="#financial">Finacial Information</a></li>
+				<li><a href="#onlineshopping">Online Shopping</a></li>
+				<li><a href="#personal">Personal Information</a></li>
+				<li><a href="#other">Other</a></li>
+			</ul>
+		</div>
+
+		<div data-role="footer" data-theme="a" data-position="fixed">
+			<h4>Footer</h4>
+		</div>
+	
+	</div>	
+
+	<div data-role="page" id="cpulogins" data-add-back-btn="true">
+		
+		<div data-role="header" data-theme="a" >
+			<h1>Computer Login Entries</h1>
+		</div>
+
+		<div data-role="content">
+			<ul data-role="listview">
+				
+				<li>
+					<a href="#">
+						<img src="images/Computer_Logins.png" />
+						<h3>Apple ID</h3>
+						<p>My Login Information for my Apple ID</p>
+					</a>
+				</li>
+			</ul>	
+		</div>
+
+		<div data-role="footer" data-theme="a" data-position="fixed">
+			<h4>Footer</h4>
+		</div>
+	
+	</div>	
+
+	<!-- JavaScript under here -->
+	<script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,80 @@
+/*
+Miu Project 1
+by: Tony Butler
+date: 3/01/2012
+term: 1203
+*/
+
+content{
+	width: 50px; 
+	height: 50px; 
+	overflow: scroll; 
+	}
+
+body{
+	width: 500px;
+	margin: auto;
+	padding: 10px;
+	}
+
+h1 {
+	text-transform: uppercase;
+	font-family: Times New Roman;
+	color: #ED5418;
+	letter-spacing: .05cm;
+	text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
+	font-size: 32px;
+	text-align:center;
+	}
+
+nav {
+	height: 15px;
+	margin: 10px;
+	}
+
+fieldset {
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFFFFF), to(#C9C9C9));
+	}
+	
+legend {
+	font-weight: bold;
+	color: green;
+	font-size: 17px;
+	}
+
+label {
+	font-family: cambria;
+	}
+	
+span {
+	font-style: italic;
+	}
+
+small {
+	font-style: italic;
+	}
+
+img	{
+	position:relative;
+	right: -160px;	
+	}
+
+p {
+	text-align:center;
+	font-size: 20px;
+	}
+
+ p2 {
+	
+	font-size: 20px;
+	}
+ 
+button { 
+	float:left; 
+	height:auto; 
+	font:76%/150% "Lucida Grande", Geneva, Verdana, Arial, Helvetica, sans-serif; 
+	width:30em; 
+	text-align:left;
+	font-size:16px;
+	white-space:nowrap; }  
+	
